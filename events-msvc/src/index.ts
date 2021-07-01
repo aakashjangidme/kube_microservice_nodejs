@@ -1,7 +1,7 @@
 import cors from 'cors';
 import express from 'express';
-import { nextTick } from 'process';
 import config from './config/config';
+
 import { publishToQueue } from './services/mqService';
 
 const app = express();
