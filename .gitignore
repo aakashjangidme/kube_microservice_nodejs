@@ -1,7 +1,9 @@
-events-msvc/src/config/config.dev.json
-events-msvc/src/config/config.prod.json
-node_modules/
+#Custom
+src/config/config.dev.json
+src/config/config.prod.json
 
+node_modules/
+dist/
 
 # Logs
 logs
@@ -44,7 +46,6 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
