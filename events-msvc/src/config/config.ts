@@ -8,6 +8,9 @@ const config = {
     host: 'localhost',
     port: 8002,
   },
+  mq: {
+    conn_url: `amqp://localhost`,
+  },
 };
 
 export default config;
